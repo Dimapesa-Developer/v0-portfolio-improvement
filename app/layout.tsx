@@ -7,8 +7,8 @@ const _spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-sans
 const _spaceMono = Space_Mono({ weight: ["400", "700"], subsets: ["latin"], variable: "--font-mono" });
 
 export const metadata: Metadata = {
-  title: '{ DIMAPESA } Tech',
-  description: 'DIMAPESA Tech - Creative Technology Studio',
+  title: 'Diego Martin Pelayo Salazar | ICT Engineer & AI Specialist',
+  description: 'ICT Engineer with 6+ years of experience in systems administration, database management, and AI automation. Specializing in n8n, React, TypeScript, and RAG-based solutions.',
   generator: 'v0.app',
   icons: {
     icon: [
