@@ -178,20 +178,14 @@ function ContactCell() {
       </div>
       <span className="text-xs font-mono text-accent-foreground/70 uppercase tracking-[0.3em] mb-4 block">Contact</span>
       <div className="relative z-10 flex flex-col gap-3">
-        <a
-          href="mailto:dimapesa.trabajo@gmail.com"
-          className="flex items-center gap-2 text-sm text-accent-foreground hover:opacity-80 transition-opacity duration-300"
-        >
+        <div className="flex items-center gap-2 text-sm text-accent-foreground">
           <Mail className="w-4 h-4" strokeWidth={1.5} />
-          <span className="font-mono text-xs">dimapesa.trabajo@gmail.com</span>
-        </a>
-        <a
-          href="tel:+523271116753"
-          className="flex items-center gap-2 text-sm text-accent-foreground hover:opacity-80 transition-opacity duration-300"
-        >
+          <span className="font-mono text-xs text-accent-foreground/70">Available on request</span>
+        </div>
+        <div className="flex items-center gap-2 text-sm text-accent-foreground">
           <Phone className="w-4 h-4" strokeWidth={1.5} />
-          <span className="font-mono text-xs">+52 327-111-6753</span>
-        </a>
+          <span className="font-mono text-xs text-accent-foreground/70">Available on request</span>
+        </div>
         <div className="flex gap-3 mt-2">
           <a href="https://github.com/Dimapesa-Developer" target="_blank" rel="noopener noreferrer" className="text-accent-foreground/70 hover:text-accent-foreground transition-colors duration-300" aria-label="GitHub">
             <Github className="w-5 h-5" strokeWidth={1.5} />
@@ -374,13 +368,10 @@ function CTACell() {
         <Sparkles className="w-8 h-8 text-primary-foreground mx-auto mb-3" />
         <h3 className="text-lg font-bold text-primary-foreground mb-2">Available Now</h3>
         <p className="text-xs text-primary-foreground/70 mb-4">Immediate availability</p>
-        <a
-          href="mailto:dimapesa.trabajo@gmail.com"
-          className="inline-flex items-center gap-2 px-4 py-2 bg-background text-foreground text-xs font-mono hover:bg-card transition-colors duration-300"
-        >
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-background text-foreground text-xs font-mono">
           <Mail className="w-3 h-3" />
           {"Let's Connect"}
-        </a>
+        </div>
       </div>
     </div>
   )
